@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Erdens Beauty by Cigdem · Kosmetikstudio in Willich</title>
 <meta name="description" content="Erdens Beauty by Cigdem – Kosmetikstudio im Raum Willich. Dauerhafte Haarentfernung, Microneedling, Brow Lift, Lash Extensions & Nageldesign. Jetzt Termin anfragen." />
+<link rel="icon" href="images/logo.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&family=Italiana&display=swap" rel="stylesheet">
@@ -68,7 +69,9 @@
   .nav{display:flex;align-items:center;justify-content:space-between}
   .brand{font-family:'Italiana',serif;font-size:1.55rem;letter-spacing:.04em;color:var(--charcoal);display:inline-flex;align-items:center}
   .brand span{color:var(--gold-deep)}
-  .brand-logo{height:60px;width:auto;display:block;transition:.4s ease}
+  .brand-logo{height:60px;width:auto;display:block;transition:.4s ease;
+    /* ponytail: hellgold auf hellem Header kaum sichtbar -> Gold vertiefen + weicher Schatten fuer Kantentrennung */
+    filter:saturate(1.2) brightness(.88) drop-shadow(0 2px 6px rgba(42,37,33,.45))}
   header.scrolled .brand-logo{height:48px}
   .footer-logo{height:140px;width:auto;display:block;margin:0 auto}
   .legal-logo{height:44px;width:auto;display:block}
